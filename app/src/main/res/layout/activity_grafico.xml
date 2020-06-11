@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Grafico"
+    android:background="@drawable/backwhite">
+
+
+    <ImageView
+        android:id="@+id/topo"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-28dp"
+        android:layout_marginEnd="-24dp"
+        android:layout_marginRight="-24dp"
+        app:srcCompat="@drawable/topo" />
+
+    <Button
+        android:id="@+id/btnvoltar"
+        android:layout_width="18dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="692dp"
+        android:layout_toStartOf="@+id/textView6"
+        android:layout_toLeftOf="@+id/textView6"
+        android:background="@drawable/voltar" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="688dp"
+        android:text="933 - São Vicente (Humaitá)"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="673dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="-13dp"
+        app:srcCompat="@drawable/graficorota" />
+
+
+</RelativeLayout>
