@@ -1,6 +1,6 @@
 # Tibs
 
-<p align="center">
+<p align="left">
   <img width="288" height="640" src="/30.gif">
 </p>
 <p align="center">
